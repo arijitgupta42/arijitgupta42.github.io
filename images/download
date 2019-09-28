@@ -1,0 +1,9 @@
+drwxr-xr-x    3 0        0              80 Jun 17  2016 3rdpartyinstalls
+-rwxr-xr-x    1 0        0              19 Jun 17  2016 Serial_Key.txt
+-rwxr-xr-x    1 0        0              70 Jun 17  2016 autorun.inf
+drwxr-xr-x    4 0        0           17408 Jun 17  2016 idata
+drwxr-xr-x    6 0        0            1024 Jun 17  2016 platform
+-rwxr-xr-x    1 0        0             614 Jun 17  2016 setup
+-rwxr-xr-x    1 0        0          106496 Jun 17  2016 setup.exe
+-rwxr-xr-x    1 0        0             623 Jun 17  2016 xinfo
+-rwxr-xr-x    1 0        0          106496 Jun 17  2016 xinfo.exe
