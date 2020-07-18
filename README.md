@@ -1,3 +1,3 @@
-Personal Website, made using Bootstrap 4 and hosted on GitHub Pages. Languages used are CSS, HTML and JavaScript.
+Personal Website, built with Bulma, Sass, Font Awesome and Flickity.
 
-Feel free to copy the original template from [here](https://colorlib.com/wp/template/clark/)
+Small modifications on the template from [here](https://github.com/mmacneil/devfolio)
