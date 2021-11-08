@@ -14,3 +14,76 @@
 .overlaycontainer:hover .overlay {
     opacity: 0.95;
 }
+
+a {
+  text-decoration: none !important;
+}
+
+.link-wrapper {
+  position: relative;
+  display: block;
+  padding: 20px 0;
+}
+.link-cont {
+  position: relative;
+  font-size: 24px;
+}
+.wrapper-15:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.5px;
+  height: 60%;
+  background-color: lightslategrey;
+  transform: scaleY(0);
+  transform-origin: top left;
+  transition: transform 0.15s;
+}
+.wrapper-15:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 2.5px;
+  height: 60%;
+  background-color: lightslategrey;
+  transform: scaleY(0);
+  transform-origin: bottom right;
+  transition: transform 0.15s;
+}
+.wrapper-15 .hover-15 {
+  padding: 10px;
+}
+.wrapper-15 .hover-15:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 2.5px;
+  background-color: lightslategrey;
+  transform: scaleX(0);
+  transform-origin: top left;
+  transition: transform 0.15s;
+}
+.wrapper-15 .hover-15:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+  height: 2.5px;
+  background-color: lightslategrey;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.15s;
+}
+.wrapper-15:hover:before,
+.wrapper-15:hover:after {
+  transform: scaleY(1);
+}
+.wrapper-15:hover .hover-15:before,
+.wrapper-15:hover .hover-15:after {
+  transform: scaleX(1);
+}
