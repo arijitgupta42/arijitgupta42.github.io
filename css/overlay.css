@@ -148,12 +148,15 @@ a {
   gap: 10px;
 }
 
+/* 14px is the largest size at which Cloud & Deployment, the longest group,
+   still fits on one line inside the 960px desktop container. The horizontal
+   padding is tight for the same reason. */
 .skill-tag {
-  padding: 7px 14px;
+  padding: 7px 9px;
   border-radius: 999px;
   background-color: #edf4f7;
   border: 1px solid #c7dce5;
   color: #1f4d5c;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.35;
 }
