@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#1b2838"/>
+  <g stroke="#2c3e50" stroke-width="1">
+    <line x1="60" y1="80" x2="560" y2="80"/>
+    <line x1="60" y1="150" x2="560" y2="150"/>
+    <line x1="60" y1="220" x2="560" y2="220"/>
+    <line x1="60" y1="290" x2="560" y2="290"/>
+  </g>
+  <line x1="60" y1="330" x2="560" y2="330" stroke="#4a6076" stroke-width="2"/>
+  <line x1="60" y1="50" x2="60" y2="330" stroke="#4a6076" stroke-width="2"/>
+  <g stroke-width="3">
+    <g stroke="#e74c3c" fill="#e74c3c">
+      <line x1="100" y1="230" x2="100" y2="300"/><rect x="93" y="248" width="14" height="38"/>
+      <line x1="180" y1="205" x2="180" y2="275"/><rect x="173" y="222" width="14" height="36"/>
+      <line x1="340" y1="150" x2="340" y2="215"/><rect x="333" y="166" width="14" height="34"/>
+    </g>
+    <g stroke="#2ecc71" fill="#2ecc71">
+      <line x1="140" y1="215" x2="140" y2="290"/><rect x="133" y="232" width="14" height="42"/>
+      <line x1="220" y1="180" x2="220" y2="255"/><rect x="213" y="198" width="14" height="40"/>
+      <line x1="260" y1="160" x2="260" y2="235"/><rect x="253" y="176" width="14" height="42"/>
+      <line x1="300" y1="135" x2="300" y2="210"/><rect x="293" y="152" width="14" height="42"/>
+      <line x1="380" y1="120" x2="380" y2="195"/><rect x="373" y="136" width="14" height="42"/>
+      <line x1="420" y1="95" x2="420" y2="170"/><rect x="413" y="112" width="14" height="42"/>
+    </g>
+  </g>
+  <polyline points="100,270 140,255 180,240 220,220 260,200 300,175 340,185 380,160 420,132 470,105 520,88"
+            fill="none" stroke="#008CBA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#008CBA">
+    <circle cx="470" cy="105" r="6"/><circle cx="520" cy="88" r="6"/>
+  </g>
+  <g transform="translate(452,150)">
+    <rect x="0" y="0" width="96" height="72" rx="14" fill="#ecf0f1"/>
+    <rect x="40" y="-18" width="16" height="18" fill="#ecf0f1"/>
+    <circle cx="48" cy="-24" r="8" fill="#008CBA"/>
+    <circle cx="28" cy="30" r="10" fill="#1b2838"/>
+    <circle cx="68" cy="30" r="10" fill="#1b2838"/>
+    <rect x="30" y="52" width="36" height="6" rx="3" fill="#1b2838"/>
+  </g>
+</svg>

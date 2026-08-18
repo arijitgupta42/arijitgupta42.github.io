@@ -87,3 +87,22 @@ a {
 .wrapper-15:hover .hover-15:after {
   transform: scaleX(1);
 }
+
+.logo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #eef1f4;
+  color: lightslategrey;
+}
+.logo-placeholder i {
+  font-size: 22px;
+}
+
+.doc-button {
+  font-size: 14px;
+  margin-top: 6px;
+}
