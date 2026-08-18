@@ -149,11 +149,11 @@ a {
 }
 
 .skill-tag {
-  padding: 8px 16px;
+  padding: 7px 14px;
   border-radius: 999px;
   background-color: #edf4f7;
   border: 1px solid #c7dce5;
   color: #1f4d5c;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.35;
 }
