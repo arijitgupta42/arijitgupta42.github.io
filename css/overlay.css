@@ -87,3 +87,8 @@ a {
 .wrapper-15:hover .hover-15:after {
   transform: scaleX(1);
 }
+
+.doc-button {
+  font-size: 14px;
+  margin-top: 6px;
+}
