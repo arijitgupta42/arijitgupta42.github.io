@@ -119,3 +119,41 @@ a {
   background-color: #005B74;
   color: #fff;
 }
+
+/* Card tags stay secondary to the description, but 0.75rem was too small to read */
+.card .tags .tag {
+  font-size: 11px;
+}
+
+.skill-group {
+  margin-bottom: 26px;
+}
+
+.skill-group:last-child {
+  margin-bottom: 0;
+}
+
+.skill-group-title {
+  margin: 0 0 12px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #4a4a4a;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  padding: 7px 14px;
+  border-radius: 999px;
+  background-color: #edf4f7;
+  border: 1px solid #c7dce5;
+  color: #1f4d5c;
+  font-size: 13px;
+  line-height: 1.35;
+}
