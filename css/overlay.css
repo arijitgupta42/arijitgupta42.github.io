@@ -92,3 +92,39 @@ a {
   font-size: 14px;
   margin-top: 6px;
 }
+
+.availability {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 16px;
+  border-radius: 999px;
+  background-color: #00738F;
+  color: #fff;
+  font-size: 13px;
+}
+
+/* .hero-buttons layout comes from Bulma: stacked on mobile, centered row above 768px */
+.hero-buttons .button {
+  font-size: 14px;
+}
+
+.contact-buttons {
+  margin-top: 20px;
+}
+
+.contact-buttons .button {
+  font-size: 14px;
+  margin: 0 6px 8px;
+}
+
+.button.is-accent {
+  background-color: #00738F;
+  border-color: transparent;
+  color: #fff;
+}
+
+.button.is-accent:hover,
+.button.is-accent:focus {
+  background-color: #005B74;
+  color: #fff;
+}
