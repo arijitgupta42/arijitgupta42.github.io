@@ -25,6 +25,7 @@ a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
 .site-header .wrap{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:.5rem 1.5rem}
 .brand{font:600 1.25rem var(--sans);letter-spacing:-.015em;color:var(--accent);text-decoration:none}
 .brand:hover{color:var(--accent)}
+.brand.is-placeholder{visibility:hidden}
 nav{margin-left:auto}
 nav ul{display:flex;flex-wrap:wrap;gap:.25rem 1.25rem;margin:0;padding:0;list-style:none}
 nav a{color:var(--text);text-decoration:none;padding:.15rem 0;border-bottom:1px solid transparent}
