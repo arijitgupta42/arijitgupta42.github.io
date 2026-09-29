@@ -1,3 +1,5 @@
-Personal Website, built with Bulma, Sass, Font Awesome and Flickity.
+Personal website: plain hand-written HTML and CSS, no build step and no JavaScript.
 
-Small modifications on the template from [here](https://github.com/mmacneil/devfolio)
+Pages: `/` (About), `/work/`, `/projects/`, `/writing/`. Styles live in `css/style.css`; fonts (Uncut Sans, Fraunces) are self-hosted in `fonts/`.
+
+Preview locally with `python -m http.server` from the repo root.
