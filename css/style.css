@@ -16,7 +16,7 @@
 }
 
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;overflow-y:scroll}
+html{-webkit-text-size-adjust:100%;scrollbar-gutter:stable}
 body{margin:0;background:var(--bg);color:var(--text);font:400 1.0625rem/1.65 var(--sans)}
 
 a{color:var(--link);text-underline-offset:.15em}
